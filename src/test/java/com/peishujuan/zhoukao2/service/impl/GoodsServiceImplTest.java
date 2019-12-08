@@ -69,6 +69,7 @@ public class GoodsServiceImplTest {
 			}
 			list.add(goods);
 		}	
+		
 		service.insertBatch(list);
 
 	}

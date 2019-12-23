@@ -31,6 +31,7 @@ public class GoodsServiceImplTest {
 		List<Goods> list = new ArrayList<Goods>();
 		
 		List<String> read = StreamUtil.read(this.getClass().getResourceAsStream("/data.txt"));
+		
 		for (String string : read) {
 			System.out.println(string);
 			Goods goods = new Goods();
